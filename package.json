@@ -2,15 +2,20 @@
   "name": "may-i-front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mayi.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
+    "netlify-deploy": "next build && next export",
     "format": "prettier --check --ignore-path .gitignore .",
-    "format:fix": "prettier --write --ignore-path .gitignore ."
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
