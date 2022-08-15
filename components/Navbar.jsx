@@ -19,27 +19,25 @@ export const Navbar = () => {
   ]
   return (
     <>
-      <nav className="max-w-[1000px] mx-auto relative overflow-hidden flex px-20 justify-between border-b bg-white">
+      <nav className="max-w-[1000px] relative overflow-hidden flex mx-8 md:px-20 md:mx-auto justify-between border-b bg-white">
         <Link href="/">
-          <a>
-            <Image
-              src="/assets/landing_page1_MayI_logo.svg"
-              alt="logo"
-              width={100}
-              height={80}
-            />
-          </a>
+          <Image
+            src="/assets/landing_page1_MayI_logo.svg"
+            alt="logo"
+            width={100}
+            height={80}
+          />
         </Link>
         <div className="flex items-center ml-auto">
           {navbar.map((data) => (
             <Link key={data.name} href={data.href}>
-              <a className="mr-10 hover:text-indigo-500 font-bold">
+              <a className="hidden md:flex text-sm md:text-lg ml-[0.6rem] md:mr-10 hover:text-indigo-500 font-bold">
                 {data.name}
               </a>
             </Link>
           ))}
           <Link href="/login">
-            <a className="font-heading text-white font-bold inline-flex items-center justify-center py-3 px-6 rounded-full transform duration-200 bg-indigo-300 hover:bg-indigo-500">
+            <a className="font-heading text-white font-bold inline-flex items-center justify-center px-[1rem] py-2 text-sm md:text-lg md:py-3 md:px-6 rounded-full transform duration-200 bg-indigo-300 hover:bg-indigo-500">
               Sign Up/In
             </a>
           </Link>
