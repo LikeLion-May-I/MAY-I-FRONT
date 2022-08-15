@@ -26,7 +26,7 @@ export const Navbar = () => {
               src="/assets/landing_page1_MayI_logo.svg"
               alt="logo"
               width={100}
-              height={100}
+              height={80}
             />
           </a>
         </Link>
