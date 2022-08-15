@@ -1,10 +1,9 @@
-import { Navbar } from '../components/Navbar'
+import Landing from '../components/landing/Landing'
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <h1>Landing Page</h1>
+      <Landing />
     </>
   )
 }
