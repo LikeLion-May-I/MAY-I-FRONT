@@ -9,6 +9,10 @@ export const Navbar = () => {
       href: '#',
     },
     {
+      name: 'Reporter',
+      href: '#',
+    },
+    {
       name: 'Q&A',
       href: '#',
     },
@@ -36,7 +40,7 @@ export const Navbar = () => {
           ))}
           <Link href="/login">
             <a className="font-heading text-white font-bold inline-flex items-center justify-center py-3 px-6 rounded-full transform duration-200 bg-indigo-300 hover:bg-indigo-500">
-              Sign up
+              Sign Up/In
             </a>
           </Link>
         </div>
