@@ -1,9 +1,10 @@
+import { Navbar } from './ui/Navbar'
+
 const Home = () => {
   return (
     <>
-      <div>
-        <h1>Landing Page</h1>
-      </div>
+      <Navbar />
+      <h1>Landing Page</h1>
     </>
   )
 }
