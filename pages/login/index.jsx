@@ -6,10 +6,10 @@ export default function Login() {
   return (
     <>
       <Navbar />
-      <section className="container max-w-[1000px] flex px-36 mx-auto py-12 ">
-        <div className="w-full mt-12 p-16 shadow-2xl text-center rounded-2xl">
+      <section className="container max-w-[1000px] flex px-4 md:px-36 mx-auto py-10 ">
+        <div className="w-full mt-12 p-8 md:p-16 shadow-2xl text-center rounded-2xl">
           <p className="mb-10 font-bold">전문가 인터뷰가 필요하다면? May I</p>
-          <div className="w-2/3 mx-auto">
+          <div className="md:w-2/3 mx-auto">
             <input
               className="bg-white border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-indigo-500 focus:border-indigo-500 block w-full p-3"
               placeholder="name@email.com"
@@ -25,12 +25,10 @@ export default function Login() {
           <p className="text-center mt-6 mb-4 text-gray-400 text-md">
             Social Login
           </p>
-          <div className="flex w-1/2 mx-auto justify-between">
+          <div className="flex w-4/5 md:w-1/2 mx-auto justify-between">
             {login.map((data) => (
               <div className="space-x-2 py-3 text-xs text-blueGray-500 font-semibold leading-none border hover:bg-blueGray-50 rounded-full px-3 bg-yellow">
-                <button>
-                  <Image src={data.src} alt="" width={25} height={25} />
-                </button>
+                <Image src={data.src} alt="" width={25} height={25} />
               </div>
             ))}
           </div>

@@ -37,7 +37,7 @@ export const Navbar = () => {
             </Link>
           ))}
           <Link href="/login">
-            <a className="font-heading text-white font-bold inline-flex items-center justify-center px-[1rem] py-2 text-sm md:text-lg md:py-3 md:px-6 rounded-full transform duration-200 bg-indigo-300 hover:bg-indigo-500">
+            <a className="font-heading text-white font-bold inline-flex items-center justify-center px-[1rem] text-sm md:text-lg py-2 md:px-6 rounded-full transform duration-200 bg-indigo-300 hover:bg-indigo-500">
               Sign Up/In
             </a>
           </Link>
