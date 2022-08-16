@@ -1,10 +1,12 @@
 import { Navbar } from '../components/Navbar'
+import Proposal from '../components/Proposal';
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <h1>Landing Page</h1>
+      <Proposal />
+      <h1>Landing Page!</h1>
     </>
   )
 }
