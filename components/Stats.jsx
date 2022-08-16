@@ -14,22 +14,22 @@ const Stats = () => {
   return (
     <div className="max-w-[1000px] h-auto mx-auto py-12">
       <div className="mx-auto text-center">
-        <h2 className="text-2xl tracking-tight font-medium text-gray-900 sm:text-4xl sm:tracking-tight">
+        <h2 className="text-xl md:text-2xl tracking-tight font-medium text-gray-900 sm:text-4xl sm:tracking-tight">
           <p className="font-bold mx-2 inline text-indigo-500">May I</p>는
           이렇게 활동해요
         </h2>
       </div>
 
       <div className="mt-10 relative max-w-[1000px] mx-auto px-8">
-        <div className="max-w-4xl mx-20">
-          <div className="flex rounded-lg bg-white shadow-2xl">
+        <div className="max-w-4xl mx-8 md:mx-20">
+          <div className="block md:flex rounded-lg bg-white shadow-2xl">
             {stats.map((stat) => (
-              <div className="w-1/3 border-b border-gray-100 p-10 text-center">
+              <div className="md:w-1/3 border-b border-gray-100 px-3 py-4 md:p-10 text-center">
                 <Image src={stat.src} width={200} height={200} />
-                <p className="mt-3 text-5xl tracking-tight font-bold text-indigo-500">
+                <p className="mt-3 text-3xl md:text-5xl tracking-tight font-bold text-indigo-500">
                   {stat.number}
                 </p>
-                <p className="mt-2 text-lg leading-6 font-medium text-gray-500">
+                <p className="mt-2 text-md md:text-lg leading-6 font-medium text-gray-500">
                   {stat.title}
                 </p>
               </div>
