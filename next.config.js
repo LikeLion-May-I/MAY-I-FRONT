@@ -11,4 +11,9 @@ module.exports = {
     loader: 'akamai',
     path: '/',
   },
+  experimental: {
+    images: {
+      layoutRaw: true,
+    },
+  },
 }
