@@ -1,13 +1,24 @@
+
+import Image from 'next/image'
+import Footer from '../components/Footer'
+import Hero from '../components/Hero'
+
 import { Navbar } from '../components/Navbar'
-import ReporterSidebar from '../components/ReporterSidebar'
+import Stats from '../components/Stats'
+import Work from '../components/Work'
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <ReporterSidebar />
-      <h1>Landing Page</h1>
-    </>
+
+
+      <Hero />
+      <Stats />
+      <Work />
+      <Footer />
+    </div>
+
   )
 }
 
