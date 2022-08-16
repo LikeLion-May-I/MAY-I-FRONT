@@ -1,8 +1,8 @@
+import Footer from '../components/Footer'
+import Hero from '../components/Hero'
 import { Navbar } from '../components/Navbar'
-import Hero from '../components/landing/hero'
-import Stats from '../components/landing/stats'
-import Work from '../components/landing/Work'
-import Footer from '../components/landing/Footer'
+import Stats from '../components/Stats'
+import Work from '../components/Work'
 
 const Home = () => {
   return (
