@@ -15,7 +15,7 @@ const Stats = () => {
         </h2>
       </div>
 
-      <div className="mt-10 relative max-w-7xl mx-auto px-8">
+      <div className="mt-10 relative max-w-[1000px] mx-auto px-8">
         <div className="max-w-4xl mx-20">
           <div className="flex rounded-lg bg-white shadow-2xl">
             {stats.map((stat) => (
