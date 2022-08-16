@@ -13,7 +13,7 @@ const Hero = () => {
           objectPosition="center"
         />
         <div className="mx-auto max-w-[1000px] w-3/4 py-36 px-6 text-left">
-          <div className=" w-full flex text-4xl font-medium text-gray-900">
+          <div className=" w-full flex text-4xl font-bold text-gray-900">
             <span className="block">
               당신의 전문가에게
               <br />
