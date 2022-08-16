@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 
 import { Navbar } from '../components/Navbar'
+
 import Stats from '../components/Stats'
 import Work from '../components/Work'
 
