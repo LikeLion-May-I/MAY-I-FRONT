@@ -62,7 +62,19 @@ const Work = () => {
         </div>
         <div className="mx-6 w-1/2">
           <Image
-            src="assets/work2.svg"
+            src="assets/work4.svg"
+            width={1000}
+            height={300}
+            objectPosition="center"
+          />
+          <Image
+            src="assets/work5.svg"
+            width={1000}
+            height={300}
+            objectPosition="center"
+          />
+          <Image
+            src="assets/work6.svg"
             width={1000}
             height={300}
             objectPosition="center"
