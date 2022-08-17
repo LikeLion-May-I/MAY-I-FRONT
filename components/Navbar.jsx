@@ -21,7 +21,7 @@ export const Navbar = () => {
     <>
       <nav className="max-w-[1000px] relative overflow-hidden flex mx-8 md:px-20 md:mx-auto justify-between border-b bg-white">
         <Link href="/">
-          <Image
+      <Image
             src="/assets/landing_page1_MayI_logo.svg"
             alt="logo"
             width={100}

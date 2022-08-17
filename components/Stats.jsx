@@ -12,9 +12,9 @@ const Stats = () => {
     { number: '96%', title: '요청 응답률', src: 'assets/stats3.svg' },
   ]
   return (
-    <div className="max-w-[1000px] h-auto mx-auto py-12">
+   <div className="max-w-[1000px] h-auto mx-auto py-12">
       <div className="mx-auto text-center">
-        <h2 className="text-xl md:text-2xl tracking-tight font-medium text-gray-900 sm:text-4xl sm:tracking-tight">
+    <h2 className="text-xl md:text-2xl tracking-tight font-medium text-gray-900 sm:text-4xl sm:tracking-tight">
           <p className="font-bold mx-2 inline text-indigo-500">May I</p>는
           이렇게 활동해요
         </h2>

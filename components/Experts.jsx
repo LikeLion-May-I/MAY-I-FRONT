@@ -5,10 +5,10 @@ export default function Experts() {
   return (
     <>
         <section className="py-20">
-            <div className="container px-4 mx-auto">
+       <div className="container px-4 mx-auto">
                 <div className="max-w-3xl mx-auto mb-12 lg:mb-16 text-center">
-                    <p className="text-lg font-black">당신의 전문가는 어떤 사람인가요?</p>
-                </div>
+                <p className="text-lg font-black">당신의 전문가는 어떤 사람인가요?</p>
+                </div>          
             <div className="flex flex-wrap m-4">
             <div className="w-56 p-4">
                 <div className="flex items-center justify-center py-12 shadow-2xl hover:bg-indigo-300 rounded-2xl">
